@@ -1,5 +1,8 @@
 package com.a1dark.nomadic;
 
+import com.a1dark.nomadic.block.ModBlocks;
+import com.a1dark.nomadic.item.ModCreativeModeTabs;
+import com.a1dark.nomadic.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -29,6 +32,10 @@ public class Nomadic
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         modEventBus.addListener(this::addCreative);

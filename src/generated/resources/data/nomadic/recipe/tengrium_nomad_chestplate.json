@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:diamond_chestplate"
+    },
+    "D": {
+      "item": "nomadic:tengrium"
+    }
+  },
+  "pattern": [
+    "D D",
+    "DBD",
+    "DDD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "nomadic:tengrium_nomad_chestplate"
+  }
+}

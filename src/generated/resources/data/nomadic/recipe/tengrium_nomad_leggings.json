@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:diamond_leggings"
+    },
+    "D": {
+      "item": "nomadic:tengrium"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DBD",
+    "D D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "nomadic:tengrium_nomad_leggings"
+  }
+}

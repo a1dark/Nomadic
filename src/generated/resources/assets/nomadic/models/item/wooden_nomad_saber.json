@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "nomadic:item/wooden_nomad_saber"
+  }
+}

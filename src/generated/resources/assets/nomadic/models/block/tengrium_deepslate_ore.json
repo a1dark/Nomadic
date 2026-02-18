@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "nomadic:block/tengrium_deepslate_ore"
+  }
+}

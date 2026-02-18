@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:diamond_helmet"
+    },
+    "D": {
+      "item": "nomadic:tengrium"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DBD",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "nomadic:tengrium_nomad_helmet"
+  }
+}

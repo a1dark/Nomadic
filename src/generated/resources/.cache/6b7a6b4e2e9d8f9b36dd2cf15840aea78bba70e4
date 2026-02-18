@@ -1,0 +1,10 @@
+// 1.21	2026-02-15T22:59:15.0587441	Block States: nomadic
+ccc55db0e9faff8d2c5a9487d903bac70ab0dc72 assets/nomadic/blockstates/tengrium_block.json
+55d217f1c97a4661b31d11666f7e422612370728 assets/nomadic/blockstates/tengrium_deepslate_ore.json
+222be70a483d4d405c4b52829ca868865b91b151 assets/nomadic/blockstates/tengrium_ore.json
+291e22805d3d45ea5c954f79e876f9543b0238cf assets/nomadic/models/block/tengrium_block.json
+c9b1f5952f704811eb649bc5f3f9da778edf1d39 assets/nomadic/models/block/tengrium_deepslate_ore.json
+79898013201891fe4db266b98b6766315e85b227 assets/nomadic/models/block/tengrium_ore.json
+5e84664363d93bcccf8fb1ca6ae1958ffd306eb8 assets/nomadic/models/item/tengrium_block.json
+beeaf65d6606be853d3aab1f44472fb32fb756ff assets/nomadic/models/item/tengrium_deepslate_ore.json
+f726b5b2d7497b76422bbffea33cbfbc7753bbc5 assets/nomadic/models/item/tengrium_ore.json

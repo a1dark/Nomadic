@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    },
+    "D": {
+      "item": "nomadic:tengrium"
+    }
+  },
+  "pattern": [
+    "  B",
+    " BB",
+    "AD "
+  ],
+  "result": {
+    "count": 1,
+    "id": "nomadic:diamond_nomad_saber"
+  }
+}

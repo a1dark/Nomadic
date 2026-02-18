@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "  B",
+    " BB",
+    "A  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "nomadic:golden_nomad_saber"
+  }
+}

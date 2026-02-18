@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "  B",
+    " BB",
+    "A  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "nomadic:stone_nomad_saber"
+  }
+}

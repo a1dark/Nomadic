@@ -1,0 +1,4 @@
+// 1.21	2026-02-15T22:59:15.0587441	Loot Tables
+8f77af858ccf51694b7c49fc46e6b0e9af20fc9c data/nomadic/loot_table/blocks/tengrium_block.json
+9275ad6843d6e8d93b13539c42947d3e3d2c809b data/nomadic/loot_table/blocks/tengrium_deepslate_ore.json
+74c141fd22ce8978d119a885cac58d660edb592b data/nomadic/loot_table/blocks/tengrium_ore.json

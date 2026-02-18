@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_tengrium_deepslate_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nomadic:tengrium_deepslate_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:tengrium_from_blasting_tengrium_deepslate_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tengrium_deepslate_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:tengrium_from_blasting_tengrium_deepslate_ore"
+    ]
+  }
+}

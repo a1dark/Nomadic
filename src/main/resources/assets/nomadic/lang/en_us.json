@@ -6,6 +6,16 @@
   "item.nomadic.wooden_nomad_saber": "Wooden Nomad Saber",
   "item.nomadic.chinute": "Chinute",
   "item.nomadic.kymuz": "Kymuz",
+  "item.nomadic.tengrium": "Tengrium",
+
+  "item.nomadic.tengrium_nomad_helmet": "Tengrium Nomad Helmet",
+  "item.nomadic.tengrium_nomad_chestplate": "Tengrium Nomad Chestplate",
+  "item.nomadic.tengrium_nomad_leggings": "Tengrium Nomad Leggings",
+  "item.nomadic.tengrium_nomad_boots": "Tengrium Nomad Boots",
+
+  "block.nomadic.tengrium_block": "Tengrium Block",
+  "block.nomadic.tengrium_ore": "Tengrium Ore",
+  "block.nomadic.tengrium_deepslate_ore": "Tengrium Deepslate Ore",
 
   "creativetab.nomadic.nomadic_items": "Nomadic Items",
   "creativetab.nomadic.nomadic_blocks": "Nomadic Blocks"

@@ -24,14 +24,23 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WOODEN_NOMAD_SABER.get());
                         output.accept(ModItems.CHINUTE.get());
                         output.accept(ModItems.KYMUZ.get());
+                        output.accept(ModItems.TENGRIUM.get());
+
+                        output.accept(ModItems.TENGRIUM_NOMAD_HELMET.get());
+                        output.accept(ModItems.TENGRIUM_NOMAD_CHESTPLATE.get());
+                        output.accept(ModItems.TENGRIUM_NOMAD_LEGGINGS.get());
+                        output.accept(ModItems.TENGRIUM_NOMAD_BOOTS.get());
 
                     })
                     .build());
     public static final RegistryObject<CreativeModeTab> NOMADIC_BLOCKS_TAB = CREATIVE_MODE_TABS.register("nomadic_blocks_tab",
-            () -> CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.CHINUTE.get()))
+            () -> CreativeModeTab.builder().icon(()-> new ItemStack(ModBlocks.TENGRIUM_BLOCK.get()))
                     .withTabsBefore(NOMADIC_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.nomadic.nomadic_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.TENGRIUM_BLOCK.get());
+                        output.accept(ModBlocks.TENGRIUM_ORE.get());
+                        output.accept(ModBlocks.TENGRIUM_DEEPSLATE_ORE.get());
                     })
                     .build());
 

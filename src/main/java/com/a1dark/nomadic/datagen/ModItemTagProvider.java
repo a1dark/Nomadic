@@ -1,11 +1,11 @@
 package com.a1dark.nomadic.datagen;
 
 import com.a1dark.nomadic.Nomadic;
-import com.a1dark.nomadic.util.ModTags;
+import com.a1dark.nomadic.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
-import net.minecraft.world.item.Items;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -20,5 +20,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
+        tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.TENGRIUM_NOMAD_BOOTS.get())
+                .add(ModItems.TENGRIUM_NOMAD_HELMET.get())
+                .add(ModItems.TENGRIUM_NOMAD_CHESTPLATE.get())
+                .add(ModItems.TENGRIUM_NOMAD_LEGGINGS.get());
     }
 }

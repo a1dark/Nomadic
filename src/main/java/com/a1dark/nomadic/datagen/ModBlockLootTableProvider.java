@@ -15,7 +15,6 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Set;
@@ -27,6 +26,13 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        this.add(ModBlocks.TENGRIUM_ORE.get(),
+                block -> createOreDrop(ModBlocks.TENGRIUM_ORE.get(), ModItems.TENGRIUM.get()));
+
+        this.add(ModBlocks.TENGRIUM_DEEPSLATE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.TENGRIUM_DEEPSLATE_ORE.get(), ModItems.TENGRIUM.get(), 1, 2));
+
+        dropSelf(ModBlocks.TENGRIUM_BLOCK.get());
 
     }
 

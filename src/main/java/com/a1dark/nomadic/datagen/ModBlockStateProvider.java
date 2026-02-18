@@ -15,6 +15,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        blockWithItem(ModBlocks.TENGRIUM_BLOCK);
+        blockWithItem(ModBlocks.TENGRIUM_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.TENGRIUM_ORE);
+
 
     }
     private void blockWithItem(RegistryObject<Block> blockRegistryObject){

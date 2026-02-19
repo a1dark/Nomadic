@@ -2,10 +2,8 @@ package com.a1dark.nomadic.item;
 
 import com.a1dark.nomadic.Nomadic;
 import com.a1dark.nomadic.item.custom.KymuzItem;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tiers;
+import com.a1dark.nomadic.item.custom.ModArmorItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -41,7 +39,7 @@ public class ModItems {
                     .attributes(SwordItem.createAttributes(Tiers.WOOD, 5, -2F))));
 
     public static final RegistryObject<Item> TENGRIUM_NOMAD_HELMET = ITEMS.register("tengrium_nomad_helmet", ()->
-            new ArmorItem(ModArmorMaterials.TENGRIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            new ModArmorItem(ModArmorMaterials.TENGRIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
 
     public static final RegistryObject<Item> TENGRIUM_NOMAD_CHESTPLATE = ITEMS.register("tengrium_nomad_chestplate", ()->
@@ -55,6 +53,9 @@ public class ModItems {
     public static final RegistryObject<Item> TENGRIUM_NOMAD_BOOTS = ITEMS.register("tengrium_nomad_boots", ()->
             new ArmorItem(ModArmorMaterials.TENGRIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
+
+    public static final RegistryObject<Item> NOMAD_BOW = ITEMS.register("nomad_bow",
+            ()-> new BowItem(new Item.Properties().durability(400)));
 
 
     public static void register(IEventBus eventBus){

@@ -1,0 +1,6 @@
+{
+  "parent": "nomadic:item/nomad_bow",
+  "textures": {
+    "layer0": "nomadic:item/nomad_bow_pulling_1"
+  }
+}

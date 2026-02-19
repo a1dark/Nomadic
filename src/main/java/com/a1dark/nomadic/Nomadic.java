@@ -3,6 +3,7 @@ package com.a1dark.nomadic;
 import com.a1dark.nomadic.block.ModBlocks;
 import com.a1dark.nomadic.item.ModCreativeModeTabs;
 import com.a1dark.nomadic.item.ModItems;
+import com.a1dark.nomadic.util.ModItemProperties;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -61,6 +62,7 @@ public class Nomadic
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }

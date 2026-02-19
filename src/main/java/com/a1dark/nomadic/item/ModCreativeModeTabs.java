@@ -25,6 +25,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CHINUTE.get());
                         output.accept(ModItems.KYMUZ.get());
                         output.accept(ModItems.TENGRIUM.get());
+                        output.accept(ModItems.NOMAD_BOW.get());
+
 
                         output.accept(ModItems.TENGRIUM_NOMAD_HELMET.get());
                         output.accept(ModItems.TENGRIUM_NOMAD_CHESTPLATE.get());

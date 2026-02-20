@@ -10,6 +10,8 @@ import net.minecraft.world.level.block.Block;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> NEEDS_TENGRIUM_TOOL = createTag("needs_alexandrite_tool");
+        public static final TagKey<Block> INCORRECT_FOR_TENGRIUM_TOOL = createTag("incorrect_for_alexandrite_tool");
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(Nomadic.MOD_ID, name));

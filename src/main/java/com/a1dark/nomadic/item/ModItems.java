@@ -18,6 +18,9 @@ public class ModItems {
     public static final RegistryObject<Item> TENGRIUM= ITEMS.register("tengrium", () -> new Item(new Item.Properties()));
 
 
+    public static final RegistryObject<Item> TENGRIUM_NOMAD_SABER = ITEMS.register("tengrium_nomad_saber", ()->
+            new SwordItem(ModToolTiers.TENGRIUM, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(Tiers.DIAMOND, 5, -2F))));
     public static final RegistryObject<Item> DIAMOND_NOMAD_SABER = ITEMS.register("diamond_nomad_saber", ()->
             new SwordItem(Tiers.DIAMOND, new Item.Properties()
                     .attributes(SwordItem.createAttributes(Tiers.DIAMOND, 5, -2F))));

@@ -17,6 +17,7 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(()-> new ItemStack(ModItems.DIAMOND_NOMAD_SABER.get()))
                     .title(Component.translatable("creativetab.nomadic.nomadic_items"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.TENGRIUM_NOMAD_SABER.get());
                         output.accept(ModItems.DIAMOND_NOMAD_SABER.get());
                         output.accept(ModItems.GOLDEN_NOMAD_SABER.get());
                         output.accept(ModItems.IRON_NOMAD_SABER.get());

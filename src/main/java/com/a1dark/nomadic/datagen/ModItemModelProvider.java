@@ -53,6 +53,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.IRON_NOMAD_SABER);
         handheldItem(ModItems.STONE_NOMAD_SABER);
         handheldItem(ModItems.WOODEN_NOMAD_SABER);
+        handheldItem(ModItems.TENGRIUM_NOMAD_SABER);
 
     }
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {

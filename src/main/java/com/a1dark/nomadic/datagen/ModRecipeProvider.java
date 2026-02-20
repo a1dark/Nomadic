@@ -64,6 +64,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', Items.DIAMOND)
                 .define('D', ModItems.TENGRIUM.get())
                 .unlockedBy(getHasName(ModItems.TENGRIUM.get()), has(ModItems.TENGRIUM.get())).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TENGRIUM_NOMAD_SABER.get())
+                .pattern("  D")
+                .pattern("CDD")
+                .pattern("AB ")
+                .define('A', Items.STICK)
+                .define('B', Items.DIAMOND)
+                .define('C', Items.FEATHER)
+                .define('D', ModItems.TENGRIUM.get())
+                .unlockedBy(getHasName(ModItems.TENGRIUM.get()), has(ModItems.TENGRIUM.get())).save(pRecipeOutput);
         /// Armor recipes
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TENGRIUM_NOMAD_HELMET.get())
                 .pattern("DDD")

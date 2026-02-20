@@ -39,5 +39,22 @@ public class ModClientEvents {
                         Component.translatable("tooltip.nomadic.nomad_bow.tooltip"));
             }
         }
+        if (event.getItemStack().getItem() == (ModItems.TENGRIUM_NOMAD_HELMET.get()))
+                event.getToolTip().add(Component.translatable("tooltip.nomadic.tengrium_nomad_armor.tooltip"));
+        if (event.getItemStack().getItem() == (ModItems.TENGRIUM_NOMAD_CHESTPLATE.get()))
+            event.getToolTip().add(Component.translatable("tooltip.nomadic.tengrium_nomad_armor.tooltip"));
+        if (event.getItemStack().getItem() == (ModItems.TENGRIUM_NOMAD_LEGGINGS.get()))
+            event.getToolTip().add(Component.translatable("tooltip.nomadic.tengrium_nomad_armor.tooltip"));
+        if (event.getItemStack().getItem() == (ModItems.TENGRIUM_NOMAD_BOOTS.get()))
+            event.getToolTip().add(Component.translatable("tooltip.nomadic.tengrium_nomad_armor.tooltip"));
+        if (event.getItemStack().getItem() == ModItems.TENGRIUM_NOMAD_SABER.get()) {
+            if(Screen.hasShiftDown()) {
+                event.getToolTip().add(
+                        Component.translatable("tooltip.nomadic.tengrium_nomad_saber.tooltip.shift_down"));
+            } else {
+                event.getToolTip().add(
+                        Component.translatable("tooltip.nomadic.tengrium_nomad_saber.tooltip"));
+            }
+        }
     }
 }

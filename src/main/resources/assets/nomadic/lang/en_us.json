@@ -1,4 +1,5 @@
 {
+  "item.nomadic.tengrium_nomad_saber": "Tengrium Nomad Saber",
   "item.nomadic.diamond_nomad_saber": "Diamond Nomad Saber",
   "item.nomadic.golden_nomad_saber": "Golden Nomad Saber",
   "item.nomadic.iron_nomad_saber": "Iron Nomad Saber",
@@ -22,5 +23,8 @@
   "creativetab.nomadic.nomadic_blocks": "Nomadic Blocks",
 
   "tooltip.nomadic.nomad_bow.tooltip.shift_down": "§bAncient nomads used this bow to be unstoppable.§r This item gives strength for a short period after player hits someone!",
-  "tooltip.nomadic.nomad_bow.tooltip": "Press §bShift§r for more Information!"
+  "tooltip.nomadic.nomad_bow.tooltip": "Press §bShift§r for more Information!",
+  "tooltip.nomadic.tengrium_nomad_armor.tooltip": "§bAncient nomadic armor:§r Full armor set gives you speed!",
+  "tooltip.nomadic.tengrium_nomad_saber.tooltip.shift_down": "§bAncient nomads used this sword to be FAST.§r This item dashes you into the direction you look!",
+  "tooltip.nomadic.tengrium_nomad_saber.tooltip": "Press §bShift§r for more Information!"
 }

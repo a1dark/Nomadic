@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "nomadic:tengrium"
+    },
+    "B": {
+      "item": "minecraft:bow"
+    }
+  },
+  "pattern": [
+    " AA",
+    " BA",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "nomadic:nomad_bow"
+  }
+}

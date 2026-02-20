@@ -19,6 +19,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput pRecipeOutput) {
+        //Chinute
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CHINUTE.get())
                 .pattern("BBB")
                 .pattern("BAB")
@@ -26,12 +27,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', Items.APPLE)
                 .define('B', ModItems.TENGRIUM.get())
                 .unlockedBy(getHasName(Items.APPLE), has(Items.APPLE)).save(pRecipeOutput);
+        //Block
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TENGRIUM_BLOCK.get())
                 .pattern("AAA")
                 .pattern("AAA")
                 .pattern("AAA")
                 .define('A', ModItems.TENGRIUM.get())
                 .unlockedBy(getHasName(ModItems.TENGRIUM.get()), has(ModItems.TENGRIUM.get())).save(pRecipeOutput);
+        //Sabers
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STONE_NOMAD_SABER.get())
                 .pattern("  B")
                 .pattern(" BB")
@@ -90,6 +93,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', Items.DIAMOND_BOOTS)
                 .define('D', ModItems.TENGRIUM.get())
                 .unlockedBy(getHasName(ModItems.TENGRIUM.get()), has(ModItems.TENGRIUM.get())).save(pRecipeOutput);
+        //Bow
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NOMAD_BOW.get())
+                .pattern(" AA")
+                .pattern(" BA")
+                .pattern("   ")
+                .define('A', ModItems.TENGRIUM.get())
+                .define('B',Items.BOW)
+                .unlockedBy(getHasName(ModItems.TENGRIUM.get()), has(ModItems.TENGRIUM.get())).save(pRecipeOutput);
+        //Smelting and Blasting of Tengrium
         List<ItemLike> TENGRIUM_SMELTABLES = List.of(ModBlocks.TENGRIUM_ORE.get(), ModBlocks.TENGRIUM_DEEPSLATE_ORE.get());
         oreSmelting(pRecipeOutput, TENGRIUM_SMELTABLES, RecipeCategory.MISC, ModItems.TENGRIUM.get(), 0.25f, 200, "churkakrite" );
         oreBlasting(pRecipeOutput, TENGRIUM_SMELTABLES, RecipeCategory.MISC, ModItems.TENGRIUM.get(), 0.25f, 100, "churkakrite" );

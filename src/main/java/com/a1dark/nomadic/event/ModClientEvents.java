@@ -2,8 +2,11 @@ package com.a1dark.nomadic.event;
 
 import com.a1dark.nomadic.Nomadic;
 import com.a1dark.nomadic.item.ModItems;
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ComputeFovModifierEvent;
+import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
@@ -22,6 +25,19 @@ public class ModClientEvents {
             }
             fovModifier *= 1f - deltaTicks * 0.15f;
             event.setNewFovModifier(fovModifier);
+        }
+    }
+    @SubscribeEvent
+    public static void onItemTooltip(ItemTooltipEvent event) {
+
+        if (event.getItemStack().getItem() == ModItems.NOMAD_BOW.get()) {
+            if(Screen.hasShiftDown()) {
+                event.getToolTip().add(
+                        Component.translatable("tooltip.nomadic.nomad_bow.tooltip.shift_down"));
+            } else {
+                event.getToolTip().add(
+                        Component.translatable("tooltip.nomadic.nomad_bow.tooltip"));
+            }
         }
     }
 }

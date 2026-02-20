@@ -1,4 +1,4 @@
-// 1.21	2026-02-18T16:26:11.897568	Recipes
+// 1.21	2026-02-20T12:31:05.5233631	Recipes
 195bafdda782153e9ac6c531ab7ba61c0bd9e975 data/minecraft/advancement/recipes/misc/tengrium_from_blasting_tengrium_deepslate_ore.json
 0e19130ddb9936b821d6fdcddd82bbe13679bb2c data/minecraft/advancement/recipes/misc/tengrium_from_blasting_tengrium_ore.json
 16ad19fd28839134488102c46c4c9bdb3d779c59 data/minecraft/advancement/recipes/misc/tengrium_from_smelting_tengrium_deepslate_ore.json
@@ -11,6 +11,7 @@ e132df38bb954cff2692ded9a6eb4636d451b9bd data/nomadic/advancement/recipes/misc/c
 60d7d2e48c6e4362d5f8c236770298d189e88505 data/nomadic/advancement/recipes/misc/diamond_nomad_saber.json
 770b4cbf50e020c10e37343043ae29efe2af3e54 data/nomadic/advancement/recipes/misc/golden_nomad_saber.json
 1c011b86f16c2f631d6fb8392f716d8af9b5df2a data/nomadic/advancement/recipes/misc/iron_nomad_saber.json
+62d169962ee527086fdb181c0cfac8b96d9630ab data/nomadic/advancement/recipes/misc/nomad_bow.json
 a7507ab886e261d3ea07c7f920dabdb03a76669c data/nomadic/advancement/recipes/misc/stone_nomad_saber.json
 02c13ab2cc0218cbab196c8940d04678c352c579 data/nomadic/advancement/recipes/misc/tengrium.json
 ab529e2d79c4e0ebc5f0dd77a0084fb2938b140e data/nomadic/advancement/recipes/misc/tengrium_block.json
@@ -22,6 +23,7 @@ e9b6ef72427c7a6827112a61aa177ac3b437b64a data/nomadic/advancement/recipes/misc/t
 f037ee9cba5bae227c141d7407c77d51f547d729 data/nomadic/recipe/diamond_nomad_saber.json
 9e8b1742831bb7b0532352db3c999f6ccf4afd83 data/nomadic/recipe/golden_nomad_saber.json
 c1bcc2283daf3bea3e321b733809facc371fbf05 data/nomadic/recipe/iron_nomad_saber.json
+ea9444ac6903e3eeaa30327335b0b98c173603e6 data/nomadic/recipe/nomad_bow.json
 91f81024adbd76b2a1787824dcb09d9558d7e345 data/nomadic/recipe/stone_nomad_saber.json
 333e63f6111a3984ccac073ead5dcf84c9dd679f data/nomadic/recipe/tengrium.json
 84b0e4db26700a49c9abbf0c44bda6de8fa87dff data/nomadic/recipe/tengrium_block.json

@@ -19,5 +19,8 @@
   "block.nomadic.tengrium_deepslate_ore": "Tengrium Deepslate Ore",
 
   "creativetab.nomadic.nomadic_items": "Nomadic Items",
-  "creativetab.nomadic.nomadic_blocks": "Nomadic Blocks"
+  "creativetab.nomadic.nomadic_blocks": "Nomadic Blocks",
+
+  "tooltip.nomadic.nomad_bow.tooltip.shift_down": "§bAncient nomads used this bow to be unstoppable.§r This item gives strength for a short period after player hits someone!",
+  "tooltip.nomadic.nomad_bow.tooltip": "Press §bShift§r for more Information!"
 }

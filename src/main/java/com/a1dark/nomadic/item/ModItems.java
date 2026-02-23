@@ -46,16 +46,29 @@ public class ModItems {
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
 
     public static final RegistryObject<Item> TENGRIUM_NOMAD_CHESTPLATE = ITEMS.register("tengrium_nomad_chestplate", ()->
-            new ArmorItem(ModArmorMaterials.TENGRIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+            new ModArmorItem(ModArmorMaterials.TENGRIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
                     new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))));
 
     public static final RegistryObject<Item> TENGRIUM_NOMAD_LEGGINGS = ITEMS.register("tengrium_nomad_leggings", ()->
-            new ArmorItem(ModArmorMaterials.TENGRIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+            new ModArmorItem(ModArmorMaterials.TENGRIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
                     new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(18))));
 
     public static final RegistryObject<Item> TENGRIUM_NOMAD_BOOTS = ITEMS.register("tengrium_nomad_boots", ()->
-            new ArmorItem(ModArmorMaterials.TENGRIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+            new ModArmorItem(ModArmorMaterials.TENGRIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
+    //Iron Nomad Armor
+    public static final RegistryObject<Item> IRON_NOMAD_HELMET = ITEMS.register("iron_nomad_helmet", ()->
+            new ModArmorItem(ModArmorMaterials.NOMAD_IRON_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(15))));
+    public static final RegistryObject<Item> IRON_NOMAD_CHESTPLATE = ITEMS.register("iron_nomad_chestplate", ()->
+            new ModArmorItem(ModArmorMaterials.NOMAD_IRON_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(15))));
+    public static final RegistryObject<Item> IRON_NOMAD_LEGGINGS = ITEMS.register("iron_nomad_leggings", ()->
+            new ModArmorItem(ModArmorMaterials.NOMAD_IRON_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15))));
+    public static final RegistryObject<Item> IRON_NOMAD_BOOTS = ITEMS.register("iron_nomad_boots", ()->
+            new ModArmorItem(ModArmorMaterials.NOMAD_IRON_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(15))));
 
     public static final RegistryObject<Item> NOMAD_BOW = ITEMS.register("nomad_bow",
             ()-> new BowItem(new Item.Properties().durability(400)));

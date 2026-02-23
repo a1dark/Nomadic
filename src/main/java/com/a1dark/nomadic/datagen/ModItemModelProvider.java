@@ -48,6 +48,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.TENGRIUM_NOMAD_LEGGINGS);
         trimmedArmorItem(ModItems.TENGRIUM_NOMAD_CHESTPLATE);
 
+
+        trimmedArmorItem(ModItems.IRON_NOMAD_HELMET);
+        trimmedArmorItem(ModItems.IRON_NOMAD_BOOTS);
+        trimmedArmorItem(ModItems.IRON_NOMAD_LEGGINGS);
+        trimmedArmorItem(ModItems.IRON_NOMAD_CHESTPLATE);
+
         handheldItem(ModItems.DIAMOND_NOMAD_SABER);
         handheldItem(ModItems.GOLDEN_NOMAD_SABER);
         handheldItem(ModItems.IRON_NOMAD_SABER);

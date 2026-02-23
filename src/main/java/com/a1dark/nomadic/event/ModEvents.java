@@ -2,6 +2,10 @@ package com.a1dark.nomadic.event;
 
 import com.a1dark.nomadic.Nomadic;
 import com.a1dark.nomadic.item.ModItems;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.tags.DamageTypeTags;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -9,6 +13,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.player.ArrowLooseEvent;
@@ -34,7 +39,7 @@ public class ModEvents {
     }
     @SubscribeEvent
     public static void NomadSwordRightClick(PlayerInteractEvent.RightClickItem event) {
-
+        Level level = event.getLevel();
         Player player = event.getEntity();
         ItemStack stack = event.getItemStack();
 
@@ -52,6 +57,25 @@ public class ModEvents {
                 );
 
                 player.hurtMarked = true;
+                level.playSound(
+                        null,
+                        player.getX(), player.getY(), player.getZ(),
+                        SoundEvents.ENDERMAN_SCREAM,
+                        SoundSource.PLAYERS,
+                        1.0F,
+                        1.0F
+                );
+                ServerLevel serverLevel = (ServerLevel) level;
+
+                serverLevel.sendParticles(
+                        ParticleTypes.EXPLOSION,
+                        player.getX(),
+                        player.getY() + 0.1,
+                        player.getZ(),
+                        20,        // count
+                        0.3, 0.1, 0.3,  // spread
+                        0.1        // speed
+                );
                 player.getCooldowns().addCooldown(stack.getItem(), 40);
             }
         }

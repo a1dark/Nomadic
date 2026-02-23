@@ -7,6 +7,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -102,6 +103,38 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', Items.DIAMOND_BOOTS)
                 .define('D', ModItems.TENGRIUM.get())
                 .unlockedBy(getHasName(ModItems.TENGRIUM.get()), has(ModItems.TENGRIUM.get())).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_NOMAD_HELMET.get())
+                .pattern(" C ")
+                .pattern(" A ")
+                .pattern(" B ")
+                .define('A', Items.IRON_HELMET)
+                .define('C', Blocks.RED_WOOL)
+                .define('B', ModItems.TENGRIUM.get())
+                .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT)).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_NOMAD_CHESTPLATE.get())
+                .pattern(" C ")
+                .pattern(" A ")
+                .pattern(" B ")
+                .define('A', Items.IRON_CHESTPLATE)
+                .define('C', Blocks.RED_WOOL)
+                .define('B', ModItems.TENGRIUM.get())
+                .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT)).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_NOMAD_LEGGINGS.get())
+                .pattern(" C ")
+                .pattern(" A ")
+                .pattern(" B ")
+                .define('A', Items.IRON_LEGGINGS)
+                .define('C', Blocks.RED_WOOL)
+                .define('B', ModItems.TENGRIUM.get())
+                .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT)).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_NOMAD_BOOTS.get())
+                .pattern(" C ")
+                .pattern(" A ")
+                .pattern(" B ")
+                .define('A', Items.IRON_BOOTS)
+                .define('C', Blocks.RED_WOOL)
+                .define('B', ModItems.TENGRIUM.get())
+                .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT)).save(pRecipeOutput);
         //Bow
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NOMAD_BOW.get())
                 .pattern(" AA")

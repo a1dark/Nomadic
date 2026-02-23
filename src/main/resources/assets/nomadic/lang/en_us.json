@@ -15,6 +15,11 @@
   "item.nomadic.tengrium_nomad_leggings": "Tengrium Nomad Leggings",
   "item.nomadic.tengrium_nomad_boots": "Tengrium Nomad Boots",
 
+  "item.nomadic.iron_nomad_helmet": "Iron Nomad Helmet",
+  "item.nomadic.iron_nomad_chestplate": "Iron Nomad Chestplate",
+  "item.nomadic.iron_nomad_leggings": "Iron Nomad Leggings",
+  "item.nomadic.iron_nomad_boots": "Iron Nomad Boots",
+
   "block.nomadic.tengrium_block": "Tengrium Block",
   "block.nomadic.tengrium_ore": "Tengrium Ore",
   "block.nomadic.tengrium_deepslate_ore": "Tengrium Deepslate Ore",

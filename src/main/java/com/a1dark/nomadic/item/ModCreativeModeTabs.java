@@ -34,6 +34,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TENGRIUM_NOMAD_LEGGINGS.get());
                         output.accept(ModItems.TENGRIUM_NOMAD_BOOTS.get());
 
+                        output.accept(ModItems.IRON_NOMAD_HELMET.get());
+                        output.accept(ModItems.IRON_NOMAD_CHESTPLATE.get());
+                        output.accept(ModItems.IRON_NOMAD_LEGGINGS.get());
+                        output.accept(ModItems.IRON_NOMAD_BOOTS.get());
+
                     })
                     .build());
     public static final RegistryObject<CreativeModeTab> NOMADIC_BLOCKS_TAB = CREATIVE_MODE_TABS.register("nomadic_blocks_tab",

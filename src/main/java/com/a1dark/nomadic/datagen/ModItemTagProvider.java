@@ -24,6 +24,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.TENGRIUM_NOMAD_BOOTS.get())
                 .add(ModItems.TENGRIUM_NOMAD_HELMET.get())
                 .add(ModItems.TENGRIUM_NOMAD_CHESTPLATE.get())
-                .add(ModItems.TENGRIUM_NOMAD_LEGGINGS.get());
+                .add(ModItems.TENGRIUM_NOMAD_LEGGINGS.get())
+                .add(ModItems.IRON_NOMAD_BOOTS.get())
+                .add(ModItems.IRON_NOMAD_HELMET.get())
+                .add(ModItems.IRON_NOMAD_CHESTPLATE.get())
+                .add(ModItems.IRON_NOMAD_LEGGINGS.get());
+
     }
 }

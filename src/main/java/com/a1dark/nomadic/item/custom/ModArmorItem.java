@@ -18,6 +18,10 @@ public class ModArmorItem extends ArmorItem {
             (new ImmutableMap.Builder<Holder<ArmorMaterial>, List<MobEffectInstance>>())
                     .put(ModArmorMaterials.TENGRIUM_ARMOR_MATERIAL,
                             List.of(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 1, false, false)))
+                    .put(ModArmorMaterials.NOMAD_IRON_ARMOR_MATERIAL,
+                            List.of(
+                                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0, false, false)
+                            ))
                     .build();
 
     public ModArmorItem(Holder<ArmorMaterial> material, Type type, Properties properties) {

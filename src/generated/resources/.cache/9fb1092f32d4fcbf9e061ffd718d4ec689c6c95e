@@ -1,4 +1,4 @@
-// 1.21	2026-02-20T15:24:52.7389135	Recipes
+// 1.21	2026-02-23T17:29:58.9698524	Recipes
 195bafdda782153e9ac6c531ab7ba61c0bd9e975 data/minecraft/advancement/recipes/misc/tengrium_from_blasting_tengrium_deepslate_ore.json
 0e19130ddb9936b821d6fdcddd82bbe13679bb2c data/minecraft/advancement/recipes/misc/tengrium_from_blasting_tengrium_ore.json
 16ad19fd28839134488102c46c4c9bdb3d779c59 data/minecraft/advancement/recipes/misc/tengrium_from_smelting_tengrium_deepslate_ore.json
@@ -10,6 +10,10 @@
 e132df38bb954cff2692ded9a6eb4636d451b9bd data/nomadic/advancement/recipes/misc/chinute.json
 60d7d2e48c6e4362d5f8c236770298d189e88505 data/nomadic/advancement/recipes/misc/diamond_nomad_saber.json
 770b4cbf50e020c10e37343043ae29efe2af3e54 data/nomadic/advancement/recipes/misc/golden_nomad_saber.json
+b285658814e4a842fc9a249b4d3ed17e9ed93d66 data/nomadic/advancement/recipes/misc/iron_nomad_boots.json
+d0346cf8b375706d9cc29aac8a75d177a2c4e361 data/nomadic/advancement/recipes/misc/iron_nomad_chestplate.json
+9b2fad7d88d7b3f08370b6adec9edbc379471507 data/nomadic/advancement/recipes/misc/iron_nomad_helmet.json
+06647cb9b31bca8c1f30199b04592a02f77ad1ac data/nomadic/advancement/recipes/misc/iron_nomad_leggings.json
 1c011b86f16c2f631d6fb8392f716d8af9b5df2a data/nomadic/advancement/recipes/misc/iron_nomad_saber.json
 62d169962ee527086fdb181c0cfac8b96d9630ab data/nomadic/advancement/recipes/misc/nomad_bow.json
 a7507ab886e261d3ea07c7f920dabdb03a76669c data/nomadic/advancement/recipes/misc/stone_nomad_saber.json
@@ -23,6 +27,10 @@ e9b6ef72427c7a6827112a61aa177ac3b437b64a data/nomadic/advancement/recipes/misc/t
 8712bd4bd43f77fe403b6d2e01e36dad985e5b35 data/nomadic/recipe/chinute.json
 f037ee9cba5bae227c141d7407c77d51f547d729 data/nomadic/recipe/diamond_nomad_saber.json
 9e8b1742831bb7b0532352db3c999f6ccf4afd83 data/nomadic/recipe/golden_nomad_saber.json
+03b325145af24e2ae357cdafc59def410240b2ed data/nomadic/recipe/iron_nomad_boots.json
+c639aa0b90235a308e90cdf6835707019ceccef3 data/nomadic/recipe/iron_nomad_chestplate.json
+2d199d94a9fb1083c6a37ae50bd92c72b00a0667 data/nomadic/recipe/iron_nomad_helmet.json
+4970b0f3704e7378b2e6f2560ad9a50605b2e13e data/nomadic/recipe/iron_nomad_leggings.json
 c1bcc2283daf3bea3e321b733809facc371fbf05 data/nomadic/recipe/iron_nomad_saber.json
 ea9444ac6903e3eeaa30327335b0b98c173603e6 data/nomadic/recipe/nomad_bow.json
 91f81024adbd76b2a1787824dcb09d9558d7e345 data/nomadic/recipe/stone_nomad_saber.json

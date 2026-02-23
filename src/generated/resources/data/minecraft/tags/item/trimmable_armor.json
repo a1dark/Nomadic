@@ -3,6 +3,10 @@
     "nomadic:tengrium_nomad_boots",
     "nomadic:tengrium_nomad_helmet",
     "nomadic:tengrium_nomad_chestplate",
-    "nomadic:tengrium_nomad_leggings"
+    "nomadic:tengrium_nomad_leggings",
+    "nomadic:iron_nomad_boots",
+    "nomadic:iron_nomad_helmet",
+    "nomadic:iron_nomad_chestplate",
+    "nomadic:iron_nomad_leggings"
   ]
 }

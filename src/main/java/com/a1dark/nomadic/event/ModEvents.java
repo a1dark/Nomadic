@@ -2,9 +2,9 @@ package com.a1dark.nomadic.event;
 
 import com.a1dark.nomadic.Nomadic;
 import com.a1dark.nomadic.item.ModItems;
+import com.a1dark.nomadic.sound.ModSounds;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.tags.DamageTypeTags;
 import net.minecraft.world.damagesource.DamageSource;
@@ -16,7 +16,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
-import net.minecraftforge.event.entity.player.ArrowLooseEvent;
+
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -39,6 +39,7 @@ public class ModEvents {
     }
     @SubscribeEvent
     public static void NomadSwordRightClick(PlayerInteractEvent.RightClickItem event) {
+
         Level level = event.getLevel();
         Player player = event.getEntity();
         ItemStack stack = event.getItemStack();
@@ -60,9 +61,9 @@ public class ModEvents {
                 level.playSound(
                         null,
                         player.getX(), player.getY(), player.getZ(),
-                        SoundEvents.ENDERMAN_SCREAM,
+                        ModSounds.TENGRIUM_DASH.get(),
                         SoundSource.PLAYERS,
-                        1.0F,
+                        4.0F,
                         1.0F
                 );
                 ServerLevel serverLevel = (ServerLevel) level;
@@ -81,3 +82,4 @@ public class ModEvents {
         }
     }
 }
+

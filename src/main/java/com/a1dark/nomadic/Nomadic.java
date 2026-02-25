@@ -3,11 +3,10 @@ package com.a1dark.nomadic;
 import com.a1dark.nomadic.block.ModBlocks;
 import com.a1dark.nomadic.item.ModCreativeModeTabs;
 import com.a1dark.nomadic.item.ModItems;
+import com.a1dark.nomadic.sound.ModSounds;
 import com.a1dark.nomadic.util.ModItemProperties;
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.Minecraft;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.level.block.Blocks;
+
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -20,7 +19,6 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 @Mod(Nomadic.MOD_ID)
 public class Nomadic
@@ -37,6 +35,7 @@ public class Nomadic
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(FMLJavaModLoadingContext.get().getModEventBus());
 
 
         modEventBus.addListener(this::addCreative);

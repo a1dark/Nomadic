@@ -1,29 +1,29 @@
-[27Feb2026 19:16:54.759] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\a1dar\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, nomadic, --all, --output, C:\Users\a1dar\Desktop\Nomadic Forge 1.21.1\src\generated\resources, --existing, C:\Users\a1dar\Desktop\Nomadic Forge 1.21.1\src\main\resources]
-[27Feb2026 19:16:54.759] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.9+10-LTS
-[27Feb2026 19:16:54.774] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.9 by Microsoft; OS Windows 10 arch amd64 version 10.0
-[27Feb2026 19:16:54.869] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[27Feb2026 19:16:54.997] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/a1dar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[27Feb2026 19:16:56.029] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[27Feb2026 19:16:56.850] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\a1dar\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, nomadic, --all, --output, C:\Users\a1dar\Desktop\Nomadic Forge 1.21.1\src\generated\resources, --existing, C:\Users\a1dar\Desktop\Nomadic Forge 1.21.1\src\main\resources]
-[27Feb2026 19:17:02.338] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
-[27Feb2026 19:17:02.338] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
-[27Feb2026 19:17:02.354] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[27Feb2026 19:17:02.917] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [nomadic]
-[27Feb2026 19:17:02.995] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/a1dar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1/forge-1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[27Feb2026 19:17:02.995] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/a1dar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1/forge-1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[27Feb2026 19:17:03.183] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[27Feb2026 19:17:03.370] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 186 ms
-[27Feb2026 19:17:03.370] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[27Feb2026 19:17:03.421] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 52 ms
-[27Feb2026 19:17:03.421] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id nomadic
-[27Feb2026 19:17:03.421] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id nomadic finished after 8 ms
-[27Feb2026 19:17:03.421] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id nomadic
-[27Feb2026 19:17:03.421] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id nomadic finished after 0 ms
-[27Feb2026 19:17:03.421] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: nomadic
-[27Feb2026 19:17:03.484] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: nomadic finished after 56 ms
-[27Feb2026 19:17:03.484] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: nomadic
-[27Feb2026 19:17:03.610] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: nomadic finished after 130 ms
-[27Feb2026 19:17:03.610] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[27Feb2026 19:17:03.626] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 4 ms
-[27Feb2026 19:17:03.626] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 443 ms
-[27Feb2026 19:17:03.626] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 157, old count: 154, new count: 158, removed stale: 0, written: 3
+[05Mar2026 12:08:20.095] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\a1dar\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, nomadic, --all, --output, C:\Users\a1dar\Desktop\Nomadic Forge 1.21.1\src\generated\resources, --existing, C:\Users\a1dar\Desktop\Nomadic Forge 1.21.1\src\main\resources]
+[05Mar2026 12:08:20.110] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.9+10-LTS
+[05Mar2026 12:08:20.112] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.9 by Microsoft; OS Windows 10 arch amd64 version 10.0
+[05Mar2026 12:08:20.294] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[05Mar2026 12:08:20.497] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/a1dar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[05Mar2026 12:08:22.645] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[05Mar2026 12:08:24.533] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\a1dar\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, nomadic, --all, --output, C:\Users\a1dar\Desktop\Nomadic Forge 1.21.1\src\generated\resources, --existing, C:\Users\a1dar\Desktop\Nomadic Forge 1.21.1\src\main\resources]
+[05Mar2026 12:08:33.792] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[05Mar2026 12:08:33.793] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[05Mar2026 12:08:33.846] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[05Mar2026 12:08:34.972] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [nomadic]
+[05Mar2026 12:08:35.147] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/a1dar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1/forge-1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[05Mar2026 12:08:35.148] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/a1dar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1/forge-1.21-51.0.33_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[05Mar2026 12:08:35.525] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[05Mar2026 12:08:35.988] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 461 ms
+[05Mar2026 12:08:35.988] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[05Mar2026 12:08:36.110] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 121 ms
+[05Mar2026 12:08:36.110] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id nomadic
+[05Mar2026 12:08:36.126] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id nomadic finished after 15 ms
+[05Mar2026 12:08:36.126] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id nomadic
+[05Mar2026 12:08:36.128] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id nomadic finished after 1 ms
+[05Mar2026 12:08:36.128] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: nomadic
+[05Mar2026 12:08:36.456] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: nomadic finished after 326 ms
+[05Mar2026 12:08:36.456] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: nomadic
+[05Mar2026 12:08:36.661] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: nomadic finished after 204 ms
+[05Mar2026 12:08:36.661] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[05Mar2026 12:08:36.668] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 6 ms
+[05Mar2026 12:08:36.668] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 1144 ms
+[05Mar2026 12:08:36.675] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 158, old count: 158, new count: 159, removed stale: 0, written: 0

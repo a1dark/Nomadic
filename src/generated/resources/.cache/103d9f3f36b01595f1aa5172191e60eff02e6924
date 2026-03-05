@@ -1,0 +1,4 @@
+// 1.21	2026-02-27T19:17:03.6260175	Registries
+86f37ba2d05068468aa279c62e855bb5b2dbc65a data/nomadic/forge/biome_modifier/add_tengrium_ore.json
+6d61f57da09edba0621dbd84e5834104e0b5e080 data/nomadic/worldgen/configured_feature/tengrium_ore.json
+f039fea6f0ac021566e919148f96268b655d7649 data/nomadic/worldgen/placed_feature/tengrium_ore_placed.json

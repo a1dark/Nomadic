@@ -1,12 +1,15 @@
 package com.a1dark.nomadic;
 
 import com.a1dark.nomadic.block.ModBlocks;
+import com.a1dark.nomadic.entity.ModEntities;
+import com.a1dark.nomadic.entity.client.NomadWarriorRenderor;
 import com.a1dark.nomadic.item.ModCreativeModeTabs;
 import com.a1dark.nomadic.item.ModItems;
 import com.a1dark.nomadic.sound.ModSounds;
 import com.a1dark.nomadic.util.ModItemProperties;
 import com.mojang.logging.LogUtils;
 
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -36,6 +39,7 @@ public class Nomadic
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModSounds.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModEntities.register(modEventBus);
 
 
         modEventBus.addListener(this::addCreative);
@@ -61,7 +65,10 @@ public class Nomadic
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+
             ModItemProperties.addCustomItemProperties();
+
+            EntityRenderers.register(ModEntities.NOMAD_WARRIOR.get(), NomadWarriorRenderor::new);
         }
     }
 }

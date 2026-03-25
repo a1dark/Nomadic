@@ -15,7 +15,7 @@ public class ModEntities {
             DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, Nomadic.MOD_ID);
     public static final RegistryObject<EntityType<NomadWarriorEntity>> NOMAD_WARRIOR=
             ENTITY_TYPES.register("nomad_warrior", () -> EntityType.Builder.of(NomadWarriorEntity::new, MobCategory.CREATURE)
-                    .sized(1f, 3f).build("nomad_warrior"));
+                    .sized(1f, 2.2f).build("nomad_warrior"));
 
     public static void register(IEventBus eventBus){
         ENTITY_TYPES.register(eventBus);

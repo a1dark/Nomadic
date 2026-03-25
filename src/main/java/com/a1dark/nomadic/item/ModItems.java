@@ -1,9 +1,11 @@
 package com.a1dark.nomadic.item;
 
 import com.a1dark.nomadic.Nomadic;
+import com.a1dark.nomadic.entity.ModEntities;
 import com.a1dark.nomadic.item.custom.KymuzItem;
 import com.a1dark.nomadic.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -71,6 +73,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> NOMAD_BOW = ITEMS.register("nomad_bow",
             ()-> new BowItem(new Item.Properties().durability(400)));
+
+    public static final RegistryObject<Item> NOMAD_WARRIOR_SPAWN_EGG = ITEMS.register("nomad_warrior_spawn_egg",
+            ()-> new ForgeSpawnEggItem(ModEntities.NOMAD_WARRIOR, 0x53524b, 0xdac741, new Item.Properties()));
 
 
     public static void register(IEventBus eventBus){

@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TENGRIUM.get());
                         output.accept(ModItems.NOMAD_BOW.get());
                         output.accept(ModItems.NOMAD_WARRIOR_SPAWN_EGG.get());
+                        output.accept(ModItems.NOMAD_ARCHER_SPAWN_EGG.get());
 
 
                         output.accept(ModItems.TENGRIUM_NOMAD_HELMET.get());

@@ -76,6 +76,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> NOMAD_WARRIOR_SPAWN_EGG = ITEMS.register("nomad_warrior_spawn_egg",
             ()-> new ForgeSpawnEggItem(ModEntities.NOMAD_WARRIOR, 0x53524b, 0xdac741, new Item.Properties()));
+    public static final RegistryObject<Item> NOMAD_ARCHER_SPAWN_EGG = ITEMS.register("nomad_archer_spawn_egg",
+            ()-> new ForgeSpawnEggItem(ModEntities.NOMAD_ARCHER, 0x23824b, 0xdac641, new Item.Properties()));
 
 
     public static void register(IEventBus eventBus){

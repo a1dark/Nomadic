@@ -1,4 +1,4 @@
-// 1.21	2026-03-04T23:15:51.8419536	Item Models: nomadic
+// 1.21	2026-03-29T13:58:56.298619	Item Models: nomadic
 e8b767b848e880754a143983c7e220dde3b9d771 assets/nomadic/models/item/chinute.json
 33a47fea4fa994ee0551ea12bdfb27263b8d9a5e assets/nomadic/models/item/diamond_nomad_saber.json
 b6a7b2273ee90e2a04d09ff992a7498233d95934 assets/nomadic/models/item/golden_nomad_saber.json
@@ -48,6 +48,7 @@ cbc85bcba370f8c0e2a9838c8d57cbeb801a73cd assets/nomadic/models/item/iron_nomad_l
 20264dd6b913778718ff7000d88ef00b77585cba assets/nomadic/models/item/iron_nomad_leggings_redstone_trim.json
 bf7657e1827c1bc20e1caf5bb2b0c1a6fb1e1722 assets/nomadic/models/item/iron_nomad_saber.json
 1d4d0cf9adecde07a951e9e2e6499f72e9c3bc64 assets/nomadic/models/item/kymuz.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/nomadic/models/item/nomad_archer_spawn_egg.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/nomadic/models/item/nomad_warrior_spawn_egg.json
 aa5c17950d7d8c8e253ac8a86733c49b78c3d77d assets/nomadic/models/item/stone_nomad_saber.json
 0fb99ae87bb08777e6c1cf1cd2f11c262e08159f assets/nomadic/models/item/tengrium.json

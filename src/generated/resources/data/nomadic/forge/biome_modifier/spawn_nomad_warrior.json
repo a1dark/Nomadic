@@ -1,0 +1,23 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "minecraft:plains",
+    "minecraft:savanna",
+    "minecraft:desert",
+    "minecraft:forest"
+  ],
+  "spawners": [
+    {
+      "type": "nomadic:nomad_warrior",
+      "maxCount": 4,
+      "minCount": 2,
+      "weight": 120
+    },
+    {
+      "type": "nomadic:nomad_archer",
+      "maxCount": 3,
+      "minCount": 2,
+      "weight": 80
+    }
+  ]
+}

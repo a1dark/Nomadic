@@ -9,8 +9,6 @@ import com.a1dark.nomadic.entity.custom.NomadArcherEntity;
 import com.a1dark.nomadic.entity.custom.NomadWarriorEntity;
 import com.a1dark.nomadic.entity.custom.TengriumSpiritEntity;
 import net.minecraft.world.entity.SpawnPlacementTypes;
-import net.minecraft.world.entity.animal.Animal;
-import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;

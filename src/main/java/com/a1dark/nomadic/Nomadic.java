@@ -2,7 +2,6 @@ package com.a1dark.nomadic;
 
 import com.a1dark.nomadic.block.ModBlocks;
 import com.a1dark.nomadic.entity.ModEntities;
-import com.a1dark.nomadic.entity.client.NomadArcherModel;
 import com.a1dark.nomadic.entity.client.NomadArcherRenderor;
 import com.a1dark.nomadic.entity.client.NomadWarriorRenderor;
 import com.a1dark.nomadic.entity.client.TengriumSpiritRenderor;

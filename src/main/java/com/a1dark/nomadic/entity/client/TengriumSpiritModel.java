@@ -4,8 +4,6 @@ import com.a1dark.nomadic.Nomadic;
 import com.a1dark.nomadic.entity.custom.TengriumSpiritEntity;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import net.minecraft.client.model.AnimationUtils;
-import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.HierarchicalModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
@@ -121,21 +119,18 @@ public class TengriumSpiritModel<T extends TengriumSpiritEntity> extends Hierarc
     @Override
     public void setupAnim(T entity, float limbSwing, float limbSwingAmount,
                           float ageInTicks, float netHeadYaw, float headPitch) {
-
         this.root().getAllParts().forEach(ModelPart::resetPose);
-
-        // Idle (always)
         this.animate(entity.idleAnimationState, TengriumSpiritAnimations.idle, ageInTicks);
+        this.animate(entity.walkAnimationState, TengriumSpiritAnimations.walk, ageInTicks, limbSwingAmount);
+        int attackType = entity.getEntityData().get(TengriumSpiritEntity.ATTACK_STATE);
+        if (attackType == 1) {
+            this.animate(entity.attackRhAnimationState, TengriumSpiritAnimations.attack_rh, ageInTicks);
+        } else if (attackType == 2) {
+            this.animate(entity.attackLhAnimationState, TengriumSpiritAnimations.attack_lh, ageInTicks);
+        }
 
-        // Walk
-        this.animate(entity.walkAnimationState, TengriumSpiritAnimations.walk, ageInTicks);
-
-        // Attack
-        this.animate(entity.attackAnimationState, TengriumSpiritAnimations.attack_rh, ageInTicks);
-
-        // Head tracking (additive)
-        this.head.yRot += netHeadYaw * ((float) Math.PI / 90F);
-        this.head.xRot += headPitch * ((float) Math.PI / 180F);
+        this.head.yRot = Math.clamp(netHeadYaw, -45.0F, 45.0F) * ((float)Math.PI / 180F);
+        this.head.xRot = Math.clamp(headPitch, -30.0F, 30.0F) * ((float)Math.PI / 180F);
     }
 
     @Override

@@ -1,4 +1,4 @@
-// 1.21	2026-03-29T13:58:56.298619	Item Models: nomadic
+// 1.21	2026-03-31T20:15:07.0257523	Item Models: nomadic
 e8b767b848e880754a143983c7e220dde3b9d771 assets/nomadic/models/item/chinute.json
 33a47fea4fa994ee0551ea12bdfb27263b8d9a5e assets/nomadic/models/item/diamond_nomad_saber.json
 b6a7b2273ee90e2a04d09ff992a7498233d95934 assets/nomadic/models/item/golden_nomad_saber.json
@@ -97,4 +97,5 @@ edce11e01172b44d871108ec388b252882d7fa71 assets/nomadic/models/item/tengrium_nom
 200fb3d5013c8c86fa629c86dca3bbe7e2b5dd2d assets/nomadic/models/item/tengrium_nomad_leggings_quartz_trim.json
 fce2132d899e6723edbd20161157df2c2fde0484 assets/nomadic/models/item/tengrium_nomad_leggings_redstone_trim.json
 2ddd80397e4390755f575adfdf18839e4721fdac assets/nomadic/models/item/tengrium_nomad_saber.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/nomadic/models/item/tengrium_spirit_spawn_egg.json
 925d5248968802cf63ffc5efee961b0f50a616dd assets/nomadic/models/item/wooden_nomad_saber.json

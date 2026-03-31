@@ -63,6 +63,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         withExistingParent(ModItems.NOMAD_WARRIOR_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
         withExistingParent(ModItems.NOMAD_ARCHER_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+        withExistingParent(ModItems.TENGRIUM_SPIRIT_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
 
     }
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {

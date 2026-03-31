@@ -9,8 +9,10 @@
   "item.nomadic.chinute": "Tengrium Apple",
   "item.nomadic.kymuz": "Kymuz",
   "item.nomadic.tengrium": "Tengrium",
+
   "item.nomadic.nomad_warrior_spawn_egg": "Nomad Warrior Spawn Egg",
   "item.nomadic.nomad_archer_spawn_egg": "Nomad Archer Spawn Egg",
+  "item.nomadic.tengrium_spirit_spawn_egg": "§yTengrium Spirit Spawn Egg§r",
 
   "item.nomadic.tengrium_nomad_helmet": "Tengrium Nomad Helmet",
   "item.nomadic.tengrium_nomad_chestplate": "Tengrium Nomad Chestplate",
@@ -36,5 +38,6 @@
   "tooltip.nomadic.tengrium_nomad_saber.tooltip": "Press §bShift§r for more Information!",
 
   "entity.nomadic.nomad_warrior": "Nomad Warrior",
-  "entity.nomadic.nomad_archer": "Nomad Archer"
+  "entity.nomadic.nomad_archer": "Nomad Archer",
+  "entity.nomadic.tengrium_spirit": "Tengrium Spirit"
 }

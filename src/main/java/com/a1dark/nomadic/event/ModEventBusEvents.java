@@ -4,8 +4,10 @@ import com.a1dark.nomadic.Nomadic;
 import com.a1dark.nomadic.entity.ModEntities;
 import com.a1dark.nomadic.entity.client.NomadArcherModel;
 import com.a1dark.nomadic.entity.client.NomadWarriorModel;
+import com.a1dark.nomadic.entity.client.TengriumSpiritModel;
 import com.a1dark.nomadic.entity.custom.NomadArcherEntity;
 import com.a1dark.nomadic.entity.custom.NomadWarriorEntity;
+import com.a1dark.nomadic.entity.custom.TengriumSpiritEntity;
 import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.monster.Monster;
@@ -23,12 +25,14 @@ public class ModEventBusEvents {
 
     event.registerLayerDefinition(NomadWarriorModel.LAYER_LOCATION, NomadWarriorModel::createBodyLayer);
         event.registerLayerDefinition(NomadArcherModel.LAYER_LOCATION, NomadArcherModel::createBodyLayer);
+        event.registerLayerDefinition(TengriumSpiritModel.LAYER_LOCATION, TengriumSpiritModel::createBodyLayer);
     }
     @SubscribeEvent
     public static void registerAttributes(EntityAttributeCreationEvent event){
 
         event.put(ModEntities.NOMAD_WARRIOR.get(), NomadWarriorEntity.createAttributes().build());
         event.put(ModEntities.NOMAD_ARCHER.get(), NomadArcherEntity.createAttributes().build());
+        event.put(ModEntities.TENGRIUM_SPIRIT.get(), TengriumSpiritEntity.createAttributes().build());
     }
 
     @SubscribeEvent

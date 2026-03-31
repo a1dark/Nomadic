@@ -5,6 +5,7 @@ import com.a1dark.nomadic.entity.ModEntities;
 import com.a1dark.nomadic.entity.client.NomadArcherModel;
 import com.a1dark.nomadic.entity.client.NomadArcherRenderor;
 import com.a1dark.nomadic.entity.client.NomadWarriorRenderor;
+import com.a1dark.nomadic.entity.client.TengriumSpiritRenderor;
 import com.a1dark.nomadic.item.ModCreativeModeTabs;
 import com.a1dark.nomadic.item.ModItems;
 import com.a1dark.nomadic.sound.ModSounds;
@@ -72,6 +73,7 @@ public class Nomadic
 
             EntityRenderers.register(ModEntities.NOMAD_WARRIOR.get(), NomadWarriorRenderor::new);
             EntityRenderers.register(ModEntities.NOMAD_ARCHER.get(), NomadArcherRenderor::new);
+            EntityRenderers.register(ModEntities.TENGRIUM_SPIRIT.get(), TengriumSpiritRenderor::new);
 
         }
     }

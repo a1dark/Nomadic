@@ -78,6 +78,8 @@ public class ModItems {
             ()-> new ForgeSpawnEggItem(ModEntities.NOMAD_WARRIOR, 0x53524b, 0xdac741, new Item.Properties()));
     public static final RegistryObject<Item> NOMAD_ARCHER_SPAWN_EGG = ITEMS.register("nomad_archer_spawn_egg",
             ()-> new ForgeSpawnEggItem(ModEntities.NOMAD_ARCHER, 0x23824b, 0xdac641, new Item.Properties()));
+    public static final RegistryObject<Item> TENGRIUM_SPIRIT_SPAWN_EGG = ITEMS.register("tengrium_spirit_spawn_egg",
+            ()-> new ForgeSpawnEggItem(ModEntities.TENGRIUM_SPIRIT, 0x44824b, 0xdac441, new Item.Properties()));
 
 
     public static void register(IEventBus eventBus){

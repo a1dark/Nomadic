@@ -44,7 +44,6 @@ public class NomadWarriorModel<T extends NomadWarriorEntity>
         this.rightLeg = body.getChild("rightLeg");
         this.leftLeg = body.getChild("leftLeg");
     }
-
     public static LayerDefinition createBodyLayer() {
         MeshDefinition meshdefinition = new MeshDefinition();
         PartDefinition partdefinition = meshdefinition.getRoot();
@@ -83,7 +82,6 @@ public class NomadWarriorModel<T extends NomadWarriorEntity>
 
         return LayerDefinition.create(meshdefinition, 64, 64);
     }
-
     @Override
     public void setupAnim(T entity, float limbSwing, float limbSwingAmount,
                           float ageInTicks, float netHeadYaw, float headPitch) {

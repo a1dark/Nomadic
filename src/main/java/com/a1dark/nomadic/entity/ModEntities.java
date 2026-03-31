@@ -3,6 +3,7 @@ package com.a1dark.nomadic.entity;
 import com.a1dark.nomadic.Nomadic;
 import com.a1dark.nomadic.entity.custom.NomadArcherEntity;
 import com.a1dark.nomadic.entity.custom.NomadWarriorEntity;
+import com.a1dark.nomadic.entity.custom.TengriumSpiritEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,9 +19,14 @@ public class ModEntities {
             ENTITY_TYPES.register("nomad_warrior", () -> EntityType.Builder.of(NomadWarriorEntity::new, MobCategory.CREATURE)
                     .sized(1f, 2.2f).build("nomad_warrior"));
 
-    public static final RegistryObject<EntityType<NomadArcherEntity>> NOMAD_ARCHER = // fix type here
+    public static final RegistryObject<EntityType<NomadArcherEntity>> NOMAD_ARCHER =
             ENTITY_TYPES.register("nomad_archer", () -> EntityType.Builder.of(NomadArcherEntity::new, MobCategory.CREATURE)
-                    .sized(1f, 2.2f).build("nomad_archer"));
+                    .sized(1f, 2.4f).build("nomad_archer"));
+    public static final RegistryObject<EntityType<TengriumSpiritEntity>> TENGRIUM_SPIRIT =
+            ENTITY_TYPES.register("tengrium_spirit", () -> EntityType.Builder.of(TengriumSpiritEntity::new, MobCategory.CREATURE)
+                    .sized(2f, 4f).build("tengrium_spirit"));
+
+
 
     public static void register(IEventBus eventBus){
         ENTITY_TYPES.register(eventBus);

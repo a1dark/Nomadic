@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nomadic:block/spirit_beacon"
+    },
+    "facing=south": {
+      "model": "nomadic:block/spirit_beacon",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "nomadic:block/spirit_beacon",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "nomadic:block/spirit_beacon",
+      "y": 270
+    }
+  }
+}

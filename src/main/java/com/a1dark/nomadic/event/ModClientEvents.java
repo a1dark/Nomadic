@@ -1,6 +1,7 @@
 package com.a1dark.nomadic.event;
 
 import com.a1dark.nomadic.Nomadic;
+import com.a1dark.nomadic.block.ModBlocks;
 import com.a1dark.nomadic.item.ModItems;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
@@ -39,6 +40,8 @@ public class ModClientEvents {
                         Component.translatable("tooltip.nomadic.nomad_bow.tooltip"));
             }
         }
+        if (event.getItemStack().getItem() == (ModItems.SPIRIT_SHARD.get()))
+            event.getToolTip().add(Component.translatable("tooltip.nomadic.spirit_shard.tooltip"));
         if (event.getItemStack().getItem() == (ModItems.TENGRIUM_NOMAD_HELMET.get()))
                 event.getToolTip().add(Component.translatable("tooltip.nomadic.tengrium_nomad_armor.tooltip"));
         if (event.getItemStack().getItem() == (ModItems.TENGRIUM_NOMAD_CHESTPLATE.get()))

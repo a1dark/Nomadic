@@ -33,8 +33,8 @@ public class ModBiomeModifiers {
         context.register(SPAWN_NOMAD_WARRIOR, new ForgeBiomeModifiers.AddSpawnsBiomeModifier(
                 HolderSet.direct(biomes.getOrThrow(Biomes.PLAINS), biomes.getOrThrow(Biomes.SAVANNA), biomes.getOrThrow(Biomes.DESERT), biomes.getOrThrow(Biomes.FOREST)),
                 List.of(
-                        new MobSpawnSettings.SpawnerData(ModEntities.NOMAD_WARRIOR.get(), 120, 2, 4),
-                        new MobSpawnSettings.SpawnerData(ModEntities.NOMAD_ARCHER.get(), 80, 2, 3)
+                        new MobSpawnSettings.SpawnerData(ModEntities.NOMAD_WARRIOR.get(), 85, 2, 4),
+                        new MobSpawnSettings.SpawnerData(ModEntities.NOMAD_ARCHER.get(), 70, 2, 5)
                 )));
     }
 

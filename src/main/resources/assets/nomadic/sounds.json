@@ -4,5 +4,14 @@
     "sounds": [
       "nomadic:tengrium_dash"
     ]
+  },
+  "spirit_theme": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "nomadic:spirit_theme",
+        "stream": true
+      }
+    ]
   }
 }

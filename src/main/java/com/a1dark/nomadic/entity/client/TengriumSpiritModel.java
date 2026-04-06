@@ -119,18 +119,18 @@ public class TengriumSpiritModel<T extends TengriumSpiritEntity> extends Hierarc
     @Override
     public void setupAnim(T entity, float limbSwing, float limbSwingAmount,
                           float ageInTicks, float netHeadYaw, float headPitch) {
+
         this.root().getAllParts().forEach(ModelPart::resetPose);
+        this.head.yRot = Math.clamp(netHeadYaw, -45.0F, 45.0F) * ((float) Math.PI / 180F);
+        this.head.xRot = Math.clamp(headPitch,  -30.0F, 30.0F) * ((float) Math.PI / 180F);
         this.animate(entity.idleAnimationState, TengriumSpiritAnimations.idle, ageInTicks);
         this.animate(entity.walkAnimationState, TengriumSpiritAnimations.walk, ageInTicks, limbSwingAmount);
-        int attackType = entity.getEntityData().get(TengriumSpiritEntity.ATTACK_STATE);
-        if (attackType == 1) {
-            this.animate(entity.attackRhAnimationState, TengriumSpiritAnimations.attack_rh, ageInTicks);
-        } else if (attackType == 2) {
-            this.animate(entity.attackLhAnimationState, TengriumSpiritAnimations.attack_lh, ageInTicks);
+        int state = entity.getAttackState();
+        if (state == TengriumSpiritEntity.STATE_MELEE) {
+            this.animate(entity.attackRhAnimationState, TengriumSpiritAnimations.attack_lh, ageInTicks);
+        } else if (state == TengriumSpiritEntity.STATE_RANGED) {
+            this.animate(entity.attackLhAnimationState, TengriumSpiritAnimations.attack_rh, ageInTicks);
         }
-
-        this.head.yRot = Math.clamp(netHeadYaw, -45.0F, 45.0F) * ((float)Math.PI / 180F);
-        this.head.xRot = Math.clamp(headPitch, -30.0F, 30.0F) * ((float)Math.PI / 180F);
     }
 
     @Override

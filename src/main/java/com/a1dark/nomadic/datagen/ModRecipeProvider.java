@@ -35,6 +35,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AAA")
                 .define('A', ModItems.TENGRIUM.get())
                 .unlockedBy(getHasName(ModItems.TENGRIUM.get()), has(ModItems.TENGRIUM.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SPIRIT_BEACON.get())
+                .pattern(" A ")
+                .pattern("AAA")
+                .pattern("BBB")
+                .define('A', ModItems.SPIRIT_SHARD.get())
+                .define('B', Items.SOUL_SAND)
+                .unlockedBy(getHasName(ModItems.SPIRIT_SHARD.get()), has(ModItems.TENGRIUM.get())).save(pRecipeOutput);
         //Sabers
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STONE_NOMAD_SABER.get())
                 .pattern("  B")

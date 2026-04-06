@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_spirit_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nomadic:tengrium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "nomadic:spirit_beacon"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_spirit_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "nomadic:spirit_beacon"
+    ]
+  }
+}

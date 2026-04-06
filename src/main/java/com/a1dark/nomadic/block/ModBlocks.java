@@ -1,10 +1,12 @@
 package com.a1dark.nomadic.block;
 
 import com.a1dark.nomadic.Nomadic;
+import com.a1dark.nomadic.block.custom.SpiritBeacon;
 import com.a1dark.nomadic.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SeaPickleBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -27,6 +29,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> TENGRIUM_ORE = registerBlock("tengrium_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(6f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> SPIRIT_BEACON = registerBlock("spirit_beacon",
+            () -> new SpiritBeacon(BlockBehaviour.Properties.of()
+                    .noOcclusion()
+                    .strength(6f).requiresCorrectToolForDrops().sound(SoundType.SCULK_CATALYST)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

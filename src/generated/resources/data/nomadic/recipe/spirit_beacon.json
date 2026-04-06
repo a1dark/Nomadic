@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "nomadic:spirit_shard"
+    },
+    "B": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "pattern": [
+    " A ",
+    "AAA",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "nomadic:spirit_beacon"
+  }
+}

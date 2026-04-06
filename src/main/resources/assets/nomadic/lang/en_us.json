@@ -9,6 +9,7 @@
   "item.nomadic.chinute": "Tengrium Apple",
   "item.nomadic.kymuz": "Kymuz",
   "item.nomadic.tengrium": "Tengrium",
+  "item.nomadic.spirit_shard": "Spirit Shard",
 
   "item.nomadic.nomad_warrior_spawn_egg": "Nomad Warrior Spawn Egg",
   "item.nomadic.nomad_archer_spawn_egg": "Nomad Archer Spawn Egg",
@@ -27,13 +28,14 @@
   "block.nomadic.tengrium_block": "Tengrium Block",
   "block.nomadic.tengrium_ore": "Tengrium Ore",
   "block.nomadic.tengrium_deepslate_ore": "Tengrium Deepslate Ore",
+  "block.nomadic.spirit_beacon": "Spirit Beacon",
 
   "creativetab.nomadic.nomadic_items": "Nomadic Items",
-  "creativetab.nomadic.nomadic_blocks": "Nomadic Blocks",
 
   "tooltip.nomadic.nomad_bow.tooltip.shift_down": "§bAncient nomads used this bow to be unstoppable.§r This item gives strength for a short period after player hits someone!",
   "tooltip.nomadic.nomad_bow.tooltip": "Press §bShift§r for more Information!",
   "tooltip.nomadic.tengrium_nomad_armor.tooltip": "§bAncient nomadic armor:§r Full armor set gives you speed!",
+  "tooltip.nomadic.spirit_shard.tooltip": "§bA shard of a great spirit§r",
   "tooltip.nomadic.tengrium_nomad_saber.tooltip.shift_down": "§bAncient nomads used this sword to be FAST.§r This item dashes you into the direction you look!",
   "tooltip.nomadic.tengrium_nomad_saber.tooltip": "Press §bShift§r for more Information!",
 

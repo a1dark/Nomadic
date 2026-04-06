@@ -1,4 +1,5 @@
-// 1.21	2026-02-15T22:59:15.0587441	Loot Tables
+// 1.21	2026-04-05T21:16:13.5718531	Loot Tables
+c242cf2ff1e22e8aae76f53eadd079662445c077 data/nomadic/loot_table/blocks/spirit_beacon.json
 8f77af858ccf51694b7c49fc46e6b0e9af20fc9c data/nomadic/loot_table/blocks/tengrium_block.json
 9275ad6843d6e8d93b13539c42947d3e3d2c809b data/nomadic/loot_table/blocks/tengrium_deepslate_ore.json
 74c141fd22ce8978d119a885cac58d660edb592b data/nomadic/loot_table/blocks/tengrium_ore.json

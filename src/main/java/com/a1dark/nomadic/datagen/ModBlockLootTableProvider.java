@@ -33,6 +33,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createMultipleOreDrops(ModBlocks.TENGRIUM_DEEPSLATE_ORE.get(), ModItems.TENGRIUM.get(), 1, 2));
 
         dropSelf(ModBlocks.TENGRIUM_BLOCK.get());
+        dropSelf(ModBlocks.SPIRIT_BEACON.get());
 
     }
 

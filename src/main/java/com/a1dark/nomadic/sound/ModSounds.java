@@ -13,6 +13,7 @@ public class ModSounds {
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, Nomadic.MOD_ID);
 
     public static final RegistryObject<SoundEvent> TENGRIUM_DASH = registerSoundEvent("tengrium_dash");
+    public static final RegistryObject<SoundEvent> SPIRIT_THEME = registerSoundEvent("spirit_theme");
 
 private static RegistryObject<SoundEvent> registerSoundEvent(String name){
     return SOUND_EVENTS.register(name, ()-> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(Nomadic.MOD_ID, name)));

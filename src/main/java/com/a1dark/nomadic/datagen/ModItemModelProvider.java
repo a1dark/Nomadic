@@ -42,6 +42,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CHINUTE.get());
         basicItem(ModItems.KYMUZ.get());
         basicItem(ModItems.TENGRIUM.get());
+        basicItem(ModItems.SPIRIT_SHARD.get());
 
         trimmedArmorItem(ModItems.TENGRIUM_NOMAD_HELMET);
         trimmedArmorItem(ModItems.TENGRIUM_NOMAD_BOOTS);

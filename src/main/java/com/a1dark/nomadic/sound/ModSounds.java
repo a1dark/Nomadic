@@ -14,6 +14,7 @@ public class ModSounds {
 
     public static final RegistryObject<SoundEvent> TENGRIUM_DASH = registerSoundEvent("tengrium_dash");
     public static final RegistryObject<SoundEvent> SPIRIT_THEME = registerSoundEvent("spirit_theme");
+    public static final RegistryObject<SoundEvent> TENGRIUM = registerSoundEvent("tengrium");
 
 private static RegistryObject<SoundEvent> registerSoundEvent(String name){
     return SOUND_EVENTS.register(name, ()-> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(Nomadic.MOD_ID, name)));

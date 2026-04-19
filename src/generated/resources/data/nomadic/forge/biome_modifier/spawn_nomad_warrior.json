@@ -11,13 +11,13 @@
       "type": "nomadic:nomad_warrior",
       "maxCount": 4,
       "minCount": 2,
-      "weight": 120
+      "weight": 85
     },
     {
       "type": "nomadic:nomad_archer",
-      "maxCount": 3,
+      "maxCount": 5,
       "minCount": 2,
-      "weight": 80
+      "weight": 70
     }
   ]
 }

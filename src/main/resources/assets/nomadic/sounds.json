@@ -5,6 +5,12 @@
       "nomadic:tengrium_dash"
     ]
   },
+  "tengrium": {
+    "subtitle": "sounds.nomadic.tengrium",
+    "sounds": [
+      "nomadic:tengrium"
+    ]
+  },
   "spirit_theme": {
     "category": "record",
     "sounds": [

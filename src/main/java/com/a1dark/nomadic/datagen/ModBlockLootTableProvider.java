@@ -34,6 +34,12 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         dropSelf(ModBlocks.TENGRIUM_BLOCK.get());
         dropSelf(ModBlocks.SPIRIT_BEACON.get());
+        dropSelf(ModBlocks.TENGRIUM_CAMPFIRE.get());
+        dropSelf(ModBlocks.BLUE_SHYRDAK.get());
+        dropSelf(ModBlocks.WHITE_SHYRDAK.get());
+        dropSelf(ModBlocks.GREEN_SHYRDAK.get());
+        dropSelf(ModBlocks.RED_SHYRDAK.get());
+        dropSelf(ModBlocks.ORANGE_SHYRDAK.get());
 
     }
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "nomadic:salt"
+    },
+    "B": {
+      "item": "minecraft:chicken"
+    }
+  },
+  "pattern": [
+    " AA",
+    " BA",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "nomadic:dried_chicken"
+  }
+}

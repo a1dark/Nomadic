@@ -1,6 +1,7 @@
 package com.a1dark.nomadic.datagen;
 
 import com.a1dark.nomadic.Nomadic;
+import com.a1dark.nomadic.block.ModBlocks;
 import com.a1dark.nomadic.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
@@ -40,9 +41,23 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.CHINUTE.get());
+        basicItem(ModItems.SALT.get());
         basicItem(ModItems.KYMUZ.get());
         basicItem(ModItems.TENGRIUM.get());
         basicItem(ModItems.SPIRIT_SHARD.get());
+        basicItem(ModItems.SPIRIT.get());
+        basicItem(ModItems.DRIED_BEEF.get());
+        basicItem(ModItems.DRIED_PORKCHOP.get());
+        basicItem(ModItems.DRIED_MUTTON.get());
+        basicItem(ModItems.DRIED_CHICKEN.get());
+        basicItem(ModItems.DRIED_RABBIT.get());
+        basicItem(Item.byBlock(ModBlocks.TENGRIUM_CAMPFIRE.get()));
+        basicItem(Item.byBlock(ModBlocks.SPIRIT_BEACON.get()));
+        basicItem(Item.byBlock(ModBlocks.BLUE_SHYRDAK.get()));
+        basicItem(Item.byBlock(ModBlocks.WHITE_SHYRDAK.get()));
+        basicItem(Item.byBlock(ModBlocks.GREEN_SHYRDAK.get()));
+        basicItem(Item.byBlock(ModBlocks.RED_SHYRDAK.get()));
+        basicItem(Item.byBlock(ModBlocks.ORANGE_SHYRDAK.get()));
 
         trimmedArmorItem(ModItems.TENGRIUM_NOMAD_HELMET);
         trimmedArmorItem(ModItems.TENGRIUM_NOMAD_BOOTS);

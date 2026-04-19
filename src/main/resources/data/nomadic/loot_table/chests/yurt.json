@@ -19,7 +19,9 @@
       "rolls": 3,
       "entries": [
         { "type": "minecraft:item", "name": "minecraft:bread" },
-        { "type": "minecraft:item", "name": "nomadic:kymuz" }
+        { "type": "minecraft:item", "name": "nomadic:kymuz" },
+        { "type": "minecraft:item", "name": "nomadic:dried_beef" },
+        { "type": "minecraft:item", "name": "nomadic:salt" }
       ]
     }
   ]

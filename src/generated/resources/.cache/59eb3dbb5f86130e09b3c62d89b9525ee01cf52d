@@ -1,5 +1,11 @@
-// 1.21	2026-04-05T21:16:13.5718531	Loot Tables
+// 1.21	2026-04-19T11:50:46.8779106	Loot Tables
+e4a70b2508a45df8b08545166580c1bb5e11b3c2 data/nomadic/loot_table/blocks/blue_shyrdak.json
+f76d8934f0c18618b87e46b2e86ef86c001e4c80 data/nomadic/loot_table/blocks/green_shyrdak.json
+4b7af47481ff4170fd0e1d1ca88449e797edc32f data/nomadic/loot_table/blocks/orange_shyrdak.json
+3b7f0c134e428aa01b31fc6617492bdf08266ea0 data/nomadic/loot_table/blocks/red_shyrdak.json
 c242cf2ff1e22e8aae76f53eadd079662445c077 data/nomadic/loot_table/blocks/spirit_beacon.json
 8f77af858ccf51694b7c49fc46e6b0e9af20fc9c data/nomadic/loot_table/blocks/tengrium_block.json
+ff561ae1530ae1c04335d3a1144b6257d68a6d98 data/nomadic/loot_table/blocks/tengrium_campfire.json
 9275ad6843d6e8d93b13539c42947d3e3d2c809b data/nomadic/loot_table/blocks/tengrium_deepslate_ore.json
 74c141fd22ce8978d119a885cac58d660edb592b data/nomadic/loot_table/blocks/tengrium_ore.json
+e11d2f390f2fd4fd2d88a44a13670cedb6084777 data/nomadic/loot_table/blocks/white_shyrdak.json

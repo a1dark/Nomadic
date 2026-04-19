@@ -1,5 +1,5 @@
-// 1.21	2026-03-29T14:41:11.631515	Registries
+// 1.21	2026-04-09T19:07:04.0556784	Registries
 86f37ba2d05068468aa279c62e855bb5b2dbc65a data/nomadic/forge/biome_modifier/add_tengrium_ore.json
-c7b33c5029c5fa5dd15f33c29c622c443aaa9ace data/nomadic/forge/biome_modifier/spawn_nomad_warrior.json
+29740ac4a03be08e5d61cc644af0aba011c80797 data/nomadic/forge/biome_modifier/spawn_nomad_warrior.json
 6d61f57da09edba0621dbd84e5834104e0b5e080 data/nomadic/worldgen/configured_feature/tengrium_ore.json
 f039fea6f0ac021566e919148f96268b655d7649 data/nomadic/worldgen/placed_feature/tengrium_ore_placed.json

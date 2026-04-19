@@ -21,6 +21,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.ServerLevelAccessor;
+import net.minecraft.world.level.storage.loot.LootTable;
 import org.jetbrains.annotations.Nullable;
 
 public class NomadArcherEntity extends Monster implements RangedAttackMob {
@@ -76,7 +77,6 @@ public class NomadArcherEntity extends Monster implements RangedAttackMob {
         spawnSetupDone = true;
         return spawnData;
     }
-
     @Override
     public void onAddedToWorld() {
         super.onAddedToWorld();

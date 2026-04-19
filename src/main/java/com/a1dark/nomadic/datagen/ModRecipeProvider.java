@@ -20,6 +20,46 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput pRecipeOutput) {
+        //Drief Food
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DRIED_BEEF.get())
+                .pattern(" AA")
+                .pattern(" BA")
+                .pattern("   ")
+                .define('A', ModItems.SALT.get())
+                .define('B',Items.BEEF)
+                .unlockedBy(getHasName(ModItems.SALT.get()), has(ModItems.SALT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DRIED_PORKCHOP.get())
+                .pattern(" AA")
+                .pattern(" BA")
+                .pattern("   ")
+                .define('A', ModItems.SALT.get())
+                .define('B',Items.PORKCHOP)
+                .unlockedBy(getHasName(ModItems.SALT.get()), has(ModItems.SALT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DRIED_MUTTON.get())
+                .pattern(" AA")
+                .pattern(" BA")
+                .pattern("   ")
+                .define('A', ModItems.SALT.get())
+                .define('B',Items.MUTTON)
+                .unlockedBy(getHasName(ModItems.SALT.get()), has(ModItems.SALT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DRIED_CHICKEN.get())
+                .pattern(" AA")
+                .pattern(" BA")
+                .pattern("   ")
+                .define('A', ModItems.SALT.get())
+                .define('B',Items.CHICKEN)
+                .unlockedBy(getHasName(ModItems.SALT.get()), has(ModItems.SALT.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DRIED_RABBIT.get())
+                .pattern(" AA")
+                .pattern(" BA")
+                .pattern("   ")
+                .define('A', ModItems.SALT.get())
+                .define('B',Items.RABBIT)
+                .unlockedBy(getHasName(ModItems.SALT.get()), has(ModItems.SALT.get())).save(pRecipeOutput);
         //Chinute
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.CHINUTE.get())
                 .pattern("BBB")
@@ -28,6 +68,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', Items.APPLE)
                 .define('B', ModItems.TENGRIUM.get())
                 .unlockedBy(getHasName(Items.APPLE), has(Items.APPLE)).save(pRecipeOutput);
+        //Kymuz
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.KYMUZ.get())
+                .pattern("   ")
+                .pattern("BAB")
+                .pattern("BBB")
+                .define('A', Items.MILK_BUCKET)
+                .define('B', ModItems.SALT.get())
+                .unlockedBy(getHasName(ModItems.SALT.get()), has(ModItems.SALT.get())).save(pRecipeOutput);
+
         //Block
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TENGRIUM_BLOCK.get())
                 .pattern("AAA")
@@ -43,6 +92,56 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.SPIRIT_SHARD.get())
                 .define('B', Items.SOUL_SAND)
                 .unlockedBy(getHasName(ModItems.SPIRIT_SHARD.get()), has(ModItems.TENGRIUM.get())).save(pRecipeOutput);
+        //Shyrdak
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLUE_SHYRDAK.get())
+                .pattern("   ")
+                .pattern("A  ")
+                .pattern("BB ")
+                .define('A', Items.LIGHT_BLUE_DYE)
+                .define('B', Items.BLUE_WOOL)
+                .unlockedBy(getHasName(Items.BLUE_WOOL), has(Items.BLUE_WOOL)).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GREEN_SHYRDAK.get())
+                .pattern("   ")
+                .pattern("A  ")
+                .pattern("BB ")
+                .define('A', Items.RED_DYE)
+                .define('B', Items.GREEN_WOOL)
+                .unlockedBy(getHasName(Items.GREEN_WOOL), has(Items.GREEN_WOOL)).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WHITE_SHYRDAK.get())
+                .pattern("   ")
+                .pattern("A  ")
+                .pattern("BB ")
+                .define('A', Items.RED_DYE)
+                .define('B', Items.WHITE_WOOL)
+                .unlockedBy(getHasName(Items.WHITE_WOOL), has(Items.WHITE_WOOL)).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RED_SHYRDAK.get())
+                .pattern("   ")
+                .pattern("A  ")
+                .pattern("BB ")
+                .define('A', Items.GREEN_DYE)
+                .define('B', Items.RED_WOOL)
+                .unlockedBy(getHasName(Items.RED_WOOL), has(Items.RED_WOOL)).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ORANGE_SHYRDAK.get())
+                .pattern("   ")
+                .pattern("A  ")
+                .pattern("BB ")
+                .define('A', Items.BLUE_DYE)
+                .define('B', Items.ORANGE_WOOL)
+                .unlockedBy(getHasName(Items.ORANGE_WOOL), has(Items.ORANGE_WOOL)).save(pRecipeOutput);
+        //Tengrium Campfire
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TENGRIUM_CAMPFIRE.get())
+                .pattern("   ")
+                .pattern("BB")
+                .pattern("AB ")
+                .define('A', Items.CAMPFIRE)
+                .define('B', ModItems.TENGRIUM.get())
+                .unlockedBy(getHasName(ModItems.TENGRIUM.get()), has(ModItems.TENGRIUM.get())).save(pRecipeOutput);
+
+
         //Sabers
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STONE_NOMAD_SABER.get())
                 .pattern("  B")
@@ -78,7 +177,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("CDD")
                 .pattern("AB ")
                 .define('A', Items.STICK)
-                .define('B', Items.DIAMOND)
+                .define('B', ModItems.SPIRIT.get())
                 .define('C', Items.FEATHER)
                 .define('D', ModItems.TENGRIUM.get())
                 .unlockedBy(getHasName(ModItems.TENGRIUM.get()), has(ModItems.TENGRIUM.get())).save(pRecipeOutput);
@@ -143,6 +242,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('C', Blocks.RED_WOOL)
                 .define('B', ModItems.TENGRIUM.get())
                 .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT)).save(pRecipeOutput);
+
         //Bow
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NOMAD_BOW.get())
                 .pattern(" AA")

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nomadic:salt"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "nomadic:kymuz"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_salt"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "nomadic:kymuz"
+    ]
+  }
+}

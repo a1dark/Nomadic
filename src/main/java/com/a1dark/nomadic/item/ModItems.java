@@ -14,11 +14,20 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS=
             DeferredRegister.create(ForgeRegistries.ITEMS, Nomadic.MOD_ID);
+    //Food
+    public static final RegistryObject<Item> SALT=ITEMS.register("salt", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DRIED_BEEF=ITEMS.register("dried_beef", () -> new Item(new Item.Properties().food(ModFoodProperties.DRIED_BEEF)));
+    public static final RegistryObject<Item> DRIED_PORKCHOP=ITEMS.register("dried_porkchop", () -> new Item(new Item.Properties().food(ModFoodProperties.DRIED_PORKCHOP)));
+    public static final RegistryObject<Item> DRIED_MUTTON=ITEMS.register("dried_mutton", () -> new Item(new Item.Properties().food(ModFoodProperties.DRIED_MUTTON)));
+    public static final RegistryObject<Item> DRIED_CHICKEN=ITEMS.register("dried_chicken", () -> new Item(new Item.Properties().food(ModFoodProperties.DRIED_CHICKEN)));
+    public static final RegistryObject<Item> DRIED_RABBIT=ITEMS.register("dried_rabbit", () -> new Item(new Item.Properties().food(ModFoodProperties.DRIED_RABBIT)));
     public static final RegistryObject<Item> CHINUTE=ITEMS.register("chinute", () -> new Item(new Item.Properties().food(ModFoodProperties.CHINUTE)));
     public static final RegistryObject<Item> KYMUZ=ITEMS.register("kymuz", () -> new KymuzItem(new Item.Properties().food(ModFoodProperties.KYMUZ)));
 
+
     public static final RegistryObject<Item> TENGRIUM= ITEMS.register("tengrium", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SPIRIT_SHARD= ITEMS.register("spirit_shard", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SPIRIT= ITEMS.register("spirit", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> TENGRIUM_NOMAD_SABER = ITEMS.register("tengrium_nomad_saber", ()->
             new SwordItem(ModToolTiers.TENGRIUM, new Item.Properties()
@@ -45,7 +54,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> TENGRIUM_NOMAD_HELMET = ITEMS.register("tengrium_nomad_helmet", ()->
             new ModArmorItem(ModArmorMaterials.TENGRIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(35))));
 
     public static final RegistryObject<Item> TENGRIUM_NOMAD_CHESTPLATE = ITEMS.register("tengrium_nomad_chestplate", ()->
             new ModArmorItem(ModArmorMaterials.TENGRIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
@@ -61,7 +70,7 @@ public class ModItems {
     //Iron Nomad Armor
     public static final RegistryObject<Item> IRON_NOMAD_HELMET = ITEMS.register("iron_nomad_helmet", ()->
             new ModArmorItem(ModArmorMaterials.NOMAD_IRON_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(35))));
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(15))));
     public static final RegistryObject<Item> IRON_NOMAD_CHESTPLATE = ITEMS.register("iron_nomad_chestplate", ()->
             new ModArmorItem(ModArmorMaterials.NOMAD_IRON_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
                     new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(15))));

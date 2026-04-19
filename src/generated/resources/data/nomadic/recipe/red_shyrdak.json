@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:green_dye"
+    },
+    "B": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "pattern": [
+    "   ",
+    "A  ",
+    "BB "
+  ],
+  "result": {
+    "count": 1,
+    "id": "nomadic:red_shyrdak"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "face=floor": { "model": "nomadic:block/red_shyrdak" },
+    "face=ceiling": { "model": "nomadic:block/red_shyrdak", "x": 180 },
+    "face=wall,facing=north": { "model": "nomadic:block/red_shyrdak", "x": 90 },
+    "face=wall,facing=south": { "model": "nomadic:block/red_shyrdak", "x": 90, "y": 180 },
+    "face=wall,facing=east": { "model": "nomadic:block/red_shyrdak", "x": 90, "y": 90 },
+    "face=wall,facing=west": { "model": "nomadic:block/red_shyrdak", "x": 90, "y": 270 }
+  }
+}

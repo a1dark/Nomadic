@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nomadic:block/tengrium_campfire"
+    },
+    "facing=south": {
+      "model": "nomadic:block/tengrium_campfire",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "nomadic:block/tengrium_campfire",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "nomadic:block/tengrium_campfire",
+      "y": 270
+    }
+  }
+}

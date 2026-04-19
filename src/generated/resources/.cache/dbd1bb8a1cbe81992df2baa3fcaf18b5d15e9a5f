@@ -1,7 +1,14 @@
-// 1.21	2026-04-02T13:54:17.2688893	Item Models: nomadic
+// 1.21	2026-04-19T14:20:23.407498	Item Models: nomadic
+00bb443de76549c37a7aa53b3f5bcb2603bc3e8d assets/nomadic/models/item/blue_shyrdak.json
 e8b767b848e880754a143983c7e220dde3b9d771 assets/nomadic/models/item/chinute.json
 33a47fea4fa994ee0551ea12bdfb27263b8d9a5e assets/nomadic/models/item/diamond_nomad_saber.json
+de8fefc9d314997f4fb1cd1703653c5139b64029 assets/nomadic/models/item/dried_beef.json
+0905eb076940948393c011de80127b3e113a5082 assets/nomadic/models/item/dried_chicken.json
+023163312e091bde1487a09398241c770d314fde assets/nomadic/models/item/dried_mutton.json
+b66abb829fa11f0ddb22e4828855dbd6f85a945f assets/nomadic/models/item/dried_porkchop.json
+0ea34b1314879f9cc56d29df00bfbc6cc9324fae assets/nomadic/models/item/dried_rabbit.json
 b6a7b2273ee90e2a04d09ff992a7498233d95934 assets/nomadic/models/item/golden_nomad_saber.json
+add16eead2394f018380c37739f473beb258ff81 assets/nomadic/models/item/green_shyrdak.json
 85aa2dd8c04a06e7b653977d1af6041c1396496f assets/nomadic/models/item/iron_nomad_boots.json
 38375bd96947f16235d3d65e7c054aa3a297e8ea assets/nomadic/models/item/iron_nomad_boots_amethyst_trim.json
 c9f4bce62632b1b36e012dfaae3940631a4a126b assets/nomadic/models/item/iron_nomad_boots_copper_trim.json
@@ -50,9 +57,15 @@ bf7657e1827c1bc20e1caf5bb2b0c1a6fb1e1722 assets/nomadic/models/item/iron_nomad_s
 1d4d0cf9adecde07a951e9e2e6499f72e9c3bc64 assets/nomadic/models/item/kymuz.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/nomadic/models/item/nomad_archer_spawn_egg.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/nomadic/models/item/nomad_warrior_spawn_egg.json
+f5543332096727ea4d2116d6346b855ec01f63ef assets/nomadic/models/item/orange_shyrdak.json
+c9790d50a47fd34c5381d69ddf972280fe20fe1e assets/nomadic/models/item/red_shyrdak.json
+35f76bd7db6871e5e2589e96d012f1578ffc7db2 assets/nomadic/models/item/salt.json
+bf5eec69a3755d461b3c557ba80e84189a1429d7 assets/nomadic/models/item/spirit.json
+9e0b9a032a349ac597d65dc8a110700e7b0e4447 assets/nomadic/models/item/spirit_beacon.json
 fc7b5452bec4978a00efc1e83afdc888d36d6ce7 assets/nomadic/models/item/spirit_shard.json
 aa5c17950d7d8c8e253ac8a86733c49b78c3d77d assets/nomadic/models/item/stone_nomad_saber.json
 0fb99ae87bb08777e6c1cf1cd2f11c262e08159f assets/nomadic/models/item/tengrium.json
+30d3c045ea95608135abcdf1ef73fc325798f51c assets/nomadic/models/item/tengrium_campfire.json
 b179fd36a967ef12d4f8a541658a0be9fb5cc560 assets/nomadic/models/item/tengrium_nomad_boots.json
 ea49ebbd3d9fccdb93201cfd0d488eafd7532279 assets/nomadic/models/item/tengrium_nomad_boots_amethyst_trim.json
 f9b727a80ff67245d67f788b32e9aaba978ab1be assets/nomadic/models/item/tengrium_nomad_boots_copper_trim.json
@@ -99,4 +112,5 @@ edce11e01172b44d871108ec388b252882d7fa71 assets/nomadic/models/item/tengrium_nom
 fce2132d899e6723edbd20161157df2c2fde0484 assets/nomadic/models/item/tengrium_nomad_leggings_redstone_trim.json
 2ddd80397e4390755f575adfdf18839e4721fdac assets/nomadic/models/item/tengrium_nomad_saber.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/nomadic/models/item/tengrium_spirit_spawn_egg.json
+a6e3d10057cbfde74534d2dd5553f61f1044fee6 assets/nomadic/models/item/white_shyrdak.json
 925d5248968802cf63ffc5efee961b0f50a616dd assets/nomadic/models/item/wooden_nomad_saber.json

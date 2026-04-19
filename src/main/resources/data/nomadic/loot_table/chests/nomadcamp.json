@@ -4,7 +4,7 @@
     {
       "rolls": 1,
       "entries": [
-        { "type": "minecraft:item", "name": "nomadic:spirit_shard" },
+        { "type": "minecraft:item", "name": "nomadic:tengrium" },
         { "type": "minecraft:item", "name": "nomadic:nomad_bow" }
       ]
     },
@@ -12,7 +12,9 @@
       "rolls": 3,
       "entries": [
         { "type": "minecraft:item", "name": "minecraft:bread" },
-        { "type": "minecraft:item", "name": "nomadic:kymuz" }
+        { "type": "minecraft:item", "name": "nomadic:kymuz" },
+        { "type": "minecraft:item", "name": "nomadic:dried_chicken" },
+        { "type": "minecraft:item", "name": "nomadic:salt" }
       ]
     }
   ]

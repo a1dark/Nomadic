@@ -135,7 +135,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         //Tengrium Campfire
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.TENGRIUM_CAMPFIRE.get())
                 .pattern("   ")
-                .pattern("BB")
+                .pattern("BB ")
                 .pattern("AB ")
                 .define('A', Items.CAMPFIRE)
                 .define('B', ModItems.TENGRIUM.get())

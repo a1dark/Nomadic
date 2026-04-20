@@ -58,8 +58,8 @@ public class NomadArcherModel<T extends NomadArcherEntity>
 
         PartDefinition hat = head.addOrReplaceChild("hat", CubeListBuilder.create().texOffs(28, 0).addBox(-4.0F, -11.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.5F))
                 .texOffs(46, 46).addBox(0.0F, -15.0F, -1.0F, 0.0F, 5.0F, 7.0F, new CubeDeformation(0.0F))
-                .texOffs(46, 35).addBox(-5.0F, -10.0F, -5.0F, 1.0F, 1.0F, 10.0F, new CubeDeformation(0.0F))
-                .texOffs(46, 35).addBox(4.0F, -10.0F, -5.0F, 1.0F, 1.0F, 10.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));
+                .texOffs(48, 37).addBox(-5.0F, -10.0F, -4.0F, 1.0F, 1.0F, 8.0F, new CubeDeformation(0.0F))
+                .texOffs(48, 37).addBox(4.0F, -10.0F, -4.0F, 1.0F, 1.0F, 8.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));
 
         PartDefinition cube_r1 = hat.addOrReplaceChild("cube_r1", CubeListBuilder.create().texOffs(46, 35).addBox(-1.0F, -16.0F, -8.0F, 1.0F, 1.0F, 10.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(-3.0F, 6.0F, 5.0F, 0.0F, -1.5708F, 0.0F));
 

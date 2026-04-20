@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:campfire"
+    },
+    "B": {
+      "item": "nomadic:tengrium"
+    }
+  },
+  "pattern": [
+    "   ",
+    "BB ",
+    "AB "
+  ],
+  "result": {
+    "count": 1,
+    "id": "nomadic:tengrium_campfire"
+  }
+}
